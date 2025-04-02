@@ -141,7 +141,7 @@ function Threeboxes(){
         if(ctim>=firstp && ctim<=secondp){
             setbox1("");
             setbox2("OE");
-            setbox3("Cryptography Lab");
+            setbox3("SPM");
         // 2 period
         }else if(ctim>=secondp && ctim<=thirdp){
             setbox1("OE");
