@@ -58,25 +58,25 @@ function Threeboxes(){
             setbox3("Lunch");
         }
         // 6 period
-        else if(ctim<=sixthp && ctim<=seventhp){
+        else if(ctim>=sixthp && ctim<=seventhp){
             setbox1("Cryptography Lab");
             setbox2("Lunch");
             setbox3("Complier Design");
         }
         // 7 period
-        else if(ctim<=seventhp && ctim<=eighthp){
+        else if(ctim>=seventhp && ctim<=eighthp){
             setbox1("Lunch");
             setbox2("Complier Design");
             setbox3("Cryptography");
         }
         // 8 period 
-        else if(ctim<=eighthp && ctim<=ninthp){
+        else if(ctim>=eighthp && ctim<=ninthp){
             setbox1("Complier Design");
             setbox2("Cryptography");
             setbox3("IoT");
         }
         // 9 period
-        else if(ctim<=ninthp && ctim<=tenthp){
+        else if(ctim>=ninthp && ctim<=tenthp){
             setbox1("Cryptography");
             setbox2("IoT");
             setbox3("");
@@ -112,25 +112,25 @@ function Threeboxes(){
             setbox3("Lunch");
         }
         // 6 period
-        else if(ctim<=sixthp && ctim<=seventhp){
+        else if(ctim>=sixthp && ctim<=seventhp){
             setbox1("Complier Design");
             setbox2("Lunch");
             setbox3("IoT");
         }
         // 7 period
-        else if(ctim<=seventhp && ctim<=eighthp){
+        else if(ctim>=seventhp && ctim<=eighthp){
             setbox1("Lunch");
             setbox2("IoT");
             setbox3("Cloud Computing");
         }
         // 8 period 
-        else if(ctim<=eighthp && ctim<=ninthp){
+        else if(ctim>=eighthp && ctim<=ninthp){
             setbox1("IoT");
             setbox2("Cloud Computing");
             setbox3("Crytography");
         }
         // 9 period
-        else if(ctim<=ninthp && ctim<=tenthp){
+        else if(ctim>=ninthp && ctim<=tenthp){
             setbox1("Cloud Computing");
             setbox2("Cryptography");
             setbox3("");
@@ -220,25 +220,25 @@ function Threeboxes(){
             setbox3("Lunch");
         }
         // 6 period
-        else if(ctim<=sixthp && ctim<=seventhp){
+        else if(ctim>=sixthp && ctim<=seventhp){
             setbox1("EDA");
             setbox2("Lunch");
             setbox3("Cloud Computing Lab");
         }
         // 7 period
-        else if(ctim<=seventhp && ctim<=eighthp){
+        else if(ctim>=seventhp && ctim<=eighthp){
             setbox1("Lunch");
             setbox2("SPM");
             setbox3("Gen AI");
         }
         // 8 period 
-        else if(ctim<=eighthp && ctim<=ninthp){
+        else if(ctim>=eighthp && ctim<=ninthp){
             setbox1("SPM");
             setbox2("Gen AI");
             setbox3("Cloud Computing");
         }
         // 9 period
-        else if(ctim<=ninthp && ctim<=tenthp){
+        else if(ctim>=ninthp && ctim<=tenthp){
             setbox1("Gen AI");
             setbox2("Cloud Computing");
             setbox3("");
@@ -274,25 +274,25 @@ function Threeboxes(){
             setbox3("Lunch");
         }
         // 6 period
-        else if(ctim<=sixthp && ctim<=seventhp){
+        else if(ctim>=sixthp && ctim<=seventhp){
             setbox1("IoT");
             setbox2("Lunch");
             setbox3("Complier Design");
         }
         // 7 period
-        else if(ctim<=seventhp && ctim<=eighthp){
+        else if(ctim>=seventhp && ctim<=eighthp){
             setbox1("Lunch");
             setbox2("Complier Design");
             setbox3("Placement Training");
         }
         // 8 period 
-        else if(ctim<=eighthp && ctim<=ninthp){
+        else if(ctim>=eighthp && ctim<=ninthp){
             setbox1("Complier Design");
             setbox2("Placement Training");
             setbox3("Placement Training");
         }
         // 9 period
-        else if(ctim<=ninthp && ctim<=tenthp){
+        else if(ctim>=ninthp && ctim<=tenthp){
             setbox1("Placement Training");
             setbox2("Placement Training");
             setbox3("");
