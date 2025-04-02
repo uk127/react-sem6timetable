@@ -166,25 +166,25 @@ function Threeboxes(){
             setbox3("Lunch");
         }
         // 6 period
-        else if(ctim<=sixthp && ctim<=seventhp){
+        else if(ctim>=sixthp && ctim<=seventhp){
             setbox1("Cloud Computing");
             setbox2("Lunch");
             setbox3("Cloud Computing Lab");
         }
         // 7 period
-        else if(ctim<=seventhp && ctim<=eighthp){
+        else if(ctim>=seventhp && ctim<=eighthp){
             setbox1("Lunch");
             setbox2("Cloud Computing Lab");
             setbox3("Cloud Computing Lab");
         }
         // 8 period 
-        else if(ctim<=eighthp && ctim<=ninthp){
+        else if(ctim>=eighthp && ctim<=ninthp){
             setbox1("Cloud Computing");
             setbox2("Cloud Computing");
             setbox3("Cloud Computing");
         }
         // 9 period
-        else if(ctim<=ninthp && ctim<=tenthp){
+        else if(ctim>=ninthp && ctim<=tenthp){
             setbox1("Cloud Computing");
             setbox2("Cloud Computing");
             setbox3("");
