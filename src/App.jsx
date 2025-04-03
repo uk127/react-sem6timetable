@@ -11,13 +11,13 @@ function App() {
   return (
     <Router>
       <Routes>
-        {/* ✅ This route ONLY renders Todaytimetable when visiting /todaytimetable */}
+        {/*  This route ONLY renders Todaytimetable when visiting /todaytimetable */}
         <Route path="/todaytimetable" element={<Todaytimetable />} />
         <Route path="/fulltimetable" element={<Fulltimetable />} />
         <Route path="/academicschedule" element={<Academicschedule />} />
 
 
-        {/* ✅ This route renders Sidebar and Threeboxes for all other pages */}
+        {/* This route renders Sidebar and Threeboxes for all other pages */}
         <Route 
           path="/*" 
           element={
