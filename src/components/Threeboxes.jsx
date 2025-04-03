@@ -23,9 +23,9 @@ function Threeboxes(){
         let fivthp = 11*60 + 15;
         let sixthp = 12*60 + 5;
         let seventhp = 12*60 + 45;
-        let eighthp = 1*60 +35;
-        let ninthp = 2*60 + 25;
-        let tenthp = 3*60 +15;
+        let eighthp = 13*60 +35;
+        let ninthp = 14*60 + 25;
+        let tenthp = 15*60 +15;
         //conditions to update the boxes
     //mon
         // 1 period
@@ -203,9 +203,9 @@ function Threeboxes(){
             setbox3("Break");
         // 3 period
         }else if(ctim>=thirdp && ctim<=fourthp){
-            setbox1("SPM");
+            setbox1("EDA");
             setbox2("Break");
-            setbox3("IoT");
+            setbox3("EDA");
         }
         // 4 period
         else if(ctim>=fourthp && ctim <=fivthp){
@@ -223,7 +223,7 @@ function Threeboxes(){
         else if(ctim>=sixthp && ctim<=seventhp){
             setbox1("EDA");
             setbox2("Lunch");
-            setbox3("Cloud Computing Lab");
+            setbox3("SPM");
         }
         // 7 period
         else if(ctim>=seventhp && ctim<=eighthp){
